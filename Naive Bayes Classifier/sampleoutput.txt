@@ -1,0 +1,83 @@
+Naive Bayes Classifier
+
+Enter the training set file Name:
+spamLabelled.dat
+Enter the test set file Name:
+spamUnLabelled.dat
+
+Naive Bayes Classifier
+--------------------------------------------------------------------------------------------------------
+Training P(Fi|c)
+--------------------------------------------------------------------------------------------------------
+P(c = non-spam | Feature1 = 0) = 0.6442953020134228, P (c = Spam | Feature1 = 0) = 0.33333333333333337
+P(c = non-spam | Feature1 = 1) = 0.35570469798657717, P (c = spam | Feature1 = 1) = 0.6666666666666666
+P(c = non-spam | Feature2 = 0) = 0.42281879194630867, P (c = Spam | Feature2 = 0) = 0.4117647058823529
+P(c = non-spam | Feature2 = 1) = 0.5771812080536913, P (c = spam | Feature2 = 1) = 0.5882352941176471
+P(c = non-spam | Feature3 = 0) = 0.6577181208053691, P (c = Spam | Feature3 = 0) = 0.5490196078431373
+P(c = non-spam | Feature3 = 1) = 0.3422818791946309, P (c = spam | Feature3 = 1) = 0.45098039215686275
+P(c = non-spam | Feature4 = 0) = 0.6040268456375839, P (c = Spam | Feature4 = 0) = 0.3921568627450981
+P(c = non-spam | Feature4 = 1) = 0.3959731543624161, P (c = spam | Feature4 = 1) = 0.6078431372549019
+P(c = non-spam | Feature5 = 0) = 0.6644295302013423, P (c = Spam | Feature5 = 0) = 0.5098039215686274
+P(c = non-spam | Feature5 = 1) = 0.33557046979865773, P (c = spam | Feature5 = 1) = 0.49019607843137253
+P(c = non-spam | Feature6 = 0) = 0.5302013422818792, P (c = Spam | Feature6 = 0) = 0.6470588235294117
+P(c = non-spam | Feature6 = 1) = 0.4697986577181208, P (c = spam | Feature6 = 1) = 0.35294117647058826
+P(c = non-spam | Feature7 = 0) = 0.49664429530201337, P (c = Spam | Feature7 = 0) = 0.21568627450980393
+P(c = non-spam | Feature7 = 1) = 0.5033557046979866, P (c = spam | Feature7 = 1) = 0.7843137254901961
+P(c = non-spam | Feature8 = 0) = 0.651006711409396, P (c = Spam | Feature8 = 0) = 0.23529411764705888
+P(c = non-spam | Feature8 = 1) = 0.348993288590604, P (c = spam | Feature8 = 1) = 0.7647058823529411
+P(c = non-spam | Feature9 = 0) = 0.7583892617449665, P (c = Spam | Feature9 = 0) = 0.6666666666666667
+P(c = non-spam | Feature9 = 1) = 0.24161073825503357, P (c = spam | Feature9 = 1) = 0.3333333333333333
+P(c = non-spam | Feature10 = 0) = 0.7114093959731543, P (c = Spam | Feature10 = 0) = 0.33333333333333337
+P(c = non-spam | Feature10 = 1) = 0.28859060402684567, P (c = spam | Feature10 = 1) = 0.6666666666666666
+P(c = non-spam | Feature11 = 0) = 0.4161073825503355, P (c = Spam | Feature11 = 0) = 0.33333333333333337
+P(c = non-spam | Feature11 = 1) = 0.5838926174496645, P (c = spam | Feature11 = 1) = 0.6666666666666666
+P(c = non-spam | Feature12 = 0) = 0.6644295302013423, P (c = Spam | Feature12 = 0) = 0.21568627450980393
+P(c = non-spam | Feature12 = 1) = 0.33557046979865773, P (c = spam | Feature12 = 1) = 0.7843137254901961
+--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------
+Test Classification Output:
+--------------------------------------------------------------------------------------------------------
+Feature 1: 1 1 0 0 1 1 0 0 0 0 0 0 
+Class: non-spam
+P(spam) = 0.0000030202448744 P(non-spam) = 0.0004620049715764
+
+Feature 2: 0 0 1 1 0 0 1 1 1 0 0 1 
+Class: spam
+P(spam) = 0.0000551409767620 P(non-spam) = 0.0000408556359306
+
+Feature 3: 1 1 1 1 1 0 1 0 0 0 1 1 
+Class: spam
+P(spam) = 0.0001864445537176 P(non-spam) = 0.0001277677419012
+
+Feature 4: 0 1 0 0 0 0 1 0 1 0 0 0 
+Class: non-spam
+P(spam) = 0.0000052350911156 P(non-spam) = 0.0006037954762597
+
+Feature 5: 1 1 1 0 1 1 0 1 0 0 1 1 
+Class: non-spam
+P(spam) = 0.0000586398193144 P(non-spam) = 0.0000913449897929
+
+Feature 6: 1 1 1 1 1 1 0 0 0 1 1 1 
+Class: spam
+P(spam) = 0.0000559333661153 P(non-spam) = 0.0000453132502684
+
+Feature 7: 0 0 0 0 1 1 0 1 0 0 0 0 
+Class: non-spam
+P(spam) = 0.0000034355285446 P(non-spam) = 0.0003286364419666
+
+Feature 8: 0 1 0 1 1 1 1 0 0 0 1 1 
+Class: non-spam
+P(spam) = 0.0000619025395742 P(non-spam) = 0.0003940428314834
+
+Feature 9: 1 1 1 1 1 0 1 0 0 1 0 1 
+Class: spam
+P(spam) = 0.0001864445537176 P(non-spam) = 0.0000369365430393
+
+Feature 10: 1 1 0 0 0 1 0 1 0 0 1 0 
+Class: non-spam
+P(spam) = 0.0000204168553509 P(non-spam) = 0.0006881308235775
+
+--------------------------------------------------------------------------------------------------------
+
+Successfully wrote to the file : sampleoutput.txt.

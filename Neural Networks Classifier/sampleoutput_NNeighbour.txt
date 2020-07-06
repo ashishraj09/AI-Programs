@@ -1,0 +1,47 @@
+import numpy as np
+import pandas as pd
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import classification_report
+wineTrain = pd.read_csv('wine_training', sep = ' ')
+wineTest = pd.read_csv('wine_test', sep = ' ')
+x_Train=wineTrain.drop('Class', axis = 1)
+y_Train= wineTrain['Class']
+x_Test=wineTest.drop('Class', axis = 1)
+y_Test=wineTest['Class']
+clf = KNeighborsClassifier(n_neighbors=9)
+clf.fit(x_Train,y_Train)
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=9, p=2,
+                     weights='uniform')
+pred = clf.predict(x_Test)
+print(classification_report(y_Test,pred))
+              precision    recall  f1-score   support
+
+           1       0.87      0.90      0.89        30
+           2       0.72      0.66      0.69        35
+           3       0.50      0.54      0.52        24
+
+    accuracy                           0.71        89
+   macro avg       0.70      0.70      0.70        89
+weighted avg       0.71      0.71      0.71        89
+
+print("Training set score: %f" % clf.score(x_Train, y_Train))
+Training set score: 0.764045
+print("Test set score: %f" % clf.score(x_Test, y_Test))
+Test set score: 0.707865
+a=y_Test.values
+​
+count = 0
+for i in range(len(pred)):
+    if pred[i] == a[i]:
+        count = count + 1
+count
+63
+len(pred)
+89
+count/len(pred)
+0.7078651685393258
+print("Test Accuracy:",(count/len(pred)) * 100)
+Test Accuracy: 70.78651685393258
+print("Training set score: %f" % clf.score(x_Train, y_Train))
+Training set score: 0.764045

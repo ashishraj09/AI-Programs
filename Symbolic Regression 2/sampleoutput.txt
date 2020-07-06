@@ -1,0 +1,41 @@
+Enter the file name: 
+dataset
+2020-05-24 16:37:18 INFO  SymbolicRegression:32 - main() : File name entred : dataset
+2020-05-24 16:37:18 INFO  SymbolicRegression:70 - loadData() :: reading file : dataset
+2020-05-24 16:37:18 INFO  SymbolicRegression:123 - loadData() :: File read!!
+2020-05-24 16:37:18 ERROR SymbolicRegression:40 - startSR() Regression started!!
+2020-05-24 16:37:18 INFO  GPGenotype:420 - Creating initial population
+2020-05-24 16:37:18 INFO  GPGenotype:421 - Mem free: 14.0 MB
+2020-05-24 16:37:18 INFO  GPPopulation:330 - Prototype program set
+2020-05-24 16:37:18 INFO  GPGenotype:437 - Mem free after creating population: 10.0 MB
+2020-05-24 16:37:18 INFO  GPGenotype:1496 - Your configuration does not contain unused commands, this is good
+2020-05-24 16:37:18 INFO  GPGenotype:538 - Evolving generation 0, memory free: 7.8 MB
+2020-05-24 16:37:18 INFO  GPGenotype:669 - Best solution fitness: 2.0
+2020-05-24 16:37:18 INFO  GPGenotype:671 - Best solution: (Feature2 - 0) - (Feature2 * Feature1)
+2020-05-24 16:37:18 INFO  GPGenotype:681 - Depth of chrom: 2
+2020-05-24 16:37:18 INFO  GPGenotype:669 - Best solution fitness: 0.0
+2020-05-24 16:37:18 INFO  GPGenotype:671 - Best solution: (Feature1 - Feature2) * (Feature1 - Feature2)
+2020-05-24 16:37:18 INFO  GPGenotype:681 - Depth of chrom: 2
+2020-05-24 16:37:18 INFO  GPGenotype:538 - Evolving generation 25, memory free: 82.6 MB
+2020-05-24 16:37:19 INFO  GPGenotype:538 - Evolving generation 50, memory free: 65.0 MB
+2020-05-24 16:37:19 INFO  GPGenotype:538 - Evolving generation 75, memory free: 124.6 MB
+2020-05-24 16:37:19 INFO  GPGenotype:538 - Evolving generation 100, memory free: 105.6 MB
+2020-05-24 16:37:20 INFO  GPGenotype:538 - Evolving generation 125, memory free: 87.6 MB
+2020-05-24 16:37:20 INFO  GPGenotype:538 - Evolving generation 150, memory free: 68.1 MB
+2020-05-24 16:37:20 INFO  GPGenotype:538 - Evolving generation 175, memory free: 128.1 MB
+2020-05-24 16:37:20 INFO  GPGenotype:538 - Evolving generation 200, memory free: 110.0 MB
+2020-05-24 16:37:20 INFO  GPGenotype:538 - Evolving generation 225, memory free: 91.0 MB
+2020-05-24 16:37:21 INFO  GPGenotype:538 - Evolving generation 250, memory free: 72.6 MB
+2020-05-24 16:37:21 INFO  GPGenotype:538 - Evolving generation 275, memory free: 54.6 MB
+2020-05-24 16:37:21 INFO  GPGenotype:538 - Evolving generation 300, memory free: 114.5 MB
+2020-05-24 16:37:22 INFO  GPGenotype:538 - Evolving generation 325, memory free: 96.1 MB
+2020-05-24 16:37:22 INFO  GPGenotype:538 - Evolving generation 350, memory free: 77.1 MB
+2020-05-24 16:37:22 INFO  GPGenotype:538 - Evolving generation 375, memory free: 57.6 MB
+2020-05-24 16:37:22 INFO  GPGenotype:538 - Evolving generation 400, memory free: 117.1 MB
+2020-05-24 16:37:23 INFO  GPGenotype:538 - Evolving generation 425, memory free: 97.6 MB
+2020-05-24 16:37:23 INFO  GPGenotype:538 - Evolving generation 450, memory free: 83.1 MB
+2020-05-24 16:37:23 INFO  GPGenotype:538 - Evolving generation 475, memory free: 69.1 MB
+2020-05-24 16:37:23 INFO  GPGenotype:669 - Best solution fitness: 0.0
+2020-05-24 16:37:23 INFO  GPGenotype:671 - Best solution: (Feature1 - Feature2) * (Feature1 - Feature2)
+2020-05-24 16:37:23 INFO  GPGenotype:681 - Depth of chrom: 2
+Mean Square Error : 0.000000

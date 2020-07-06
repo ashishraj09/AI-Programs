@@ -1,0 +1,99 @@
+Enter the file name: 
+regression
+2020-05-24 16:02:40 INFO  SymbolicRegression:26 - main() : File name entred : regression
+-------------
+X	Y
+-------------
+-4.4   5.721
+-4.2   4.882
+-3.3   1.685
+-3.0   1.0
+-2.2   0.04
+-2.4   0.119
+-1.2   0.64
+-1.6   0.16
+-1.0   0.956
+-0.5   2.25
+0.3   5.27
+0.6   6.76
+1.7   13.69
+2.0   16.0
+2.4   19.391
+2.9   24.01
+3.9   34.81
+3.6   31.36
+4.4   40.96
+5.0   49.0
+-------------
+2020-05-24 16:02:40 INFO  SymbolicRegression:81 - loadData() :: File loaded!!
+2020-05-24 16:02:41 INFO  GPGenotype:420 - Creating initial population
+2020-05-24 16:02:41 INFO  GPGenotype:421 - Mem free: 14.0 MB
+2020-05-24 16:02:41 INFO  GPPopulation:330 - Prototype program set
+2020-05-24 16:02:41 INFO  GPGenotype:437 - Mem free after creating population: 8.0 MB
+2020-05-24 16:02:41 INFO  GPGenotype:1496 - Your configuration does not contain unused commands, this is good
+2020-05-24 16:02:41 INFO  GPGenotype:538 - Evolving generation 0, memory free: 5.9 MB
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 1091.77
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: (4.0 * 1.0) * (X + 3.0)
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 2
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 724.32
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: ((X + 1.0) + (X * X)) + ((1.0 + 2.0) + (2.0 + X))
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 364.77
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: ((X + 1.0) + (X * X)) + (X + X)
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 319.40
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: X * (X - (0.0 - 4.0))
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 20.16
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: ((X + 1.0) + (X * X)) + ((3.0 * X) + ((1.0 + 2.0) + 1.0))
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 19.85
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: ((X * 4.0) + (X * X)) + (1.0 + 2.0)
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 19.85
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: (-1.0 + ((((X + X) + (X * X)) + X) + 4.0)) + X
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 6
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 0.00
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: ((((X + X) + (X * X)) + X) + 4.0) + X
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 5
+2020-05-24 16:02:41 INFO  GPGenotype:538 - Evolving generation 25, memory free: 3.5 MB
+2020-05-24 16:02:41 INFO  GPGenotype:669 - Best solution fitness: 0.00
+2020-05-24 16:02:41 INFO  GPGenotype:671 - Best solution: (X + 2.0) + ((((X + X) + (X * X)) + X) + 2.0)
+2020-05-24 16:02:41 INFO  GPGenotype:681 - Depth of chrom: 5
+2020-05-24 16:02:41 INFO  GPGenotype:538 - Evolving generation 50, memory free: 5.4 MB
+2020-05-24 16:02:41 INFO  GPGenotype:538 - Evolving generation 75, memory free: 120.0 MB
+2020-05-24 16:02:41 INFO  GPGenotype:538 - Evolving generation 100, memory free: 105.0 MB
+2020-05-24 16:02:41 INFO  GPGenotype:538 - Evolving generation 125, memory free: 89.5 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 150, memory free: 73.5 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 175, memory free: 57.5 MB
+2020-05-24 16:02:42 INFO  GPGenotype:669 - Best solution fitness: 0.00
+2020-05-24 16:02:42 INFO  GPGenotype:671 - Best solution: (((X + 3.0) + (X * X)) + 0.0) + ((X + 1.0) + (2.0 * X))
+2020-05-24 16:02:42 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 200, memory free: 119.4 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 225, memory free: 103.9 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 250, memory free: 89.4 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 275, memory free: 73.9 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 300, memory free: 59.4 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 325, memory free: 122.0 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 350, memory free: 106.5 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 375, memory free: 91.5 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 400, memory free: 76.0 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 425, memory free: 60.5 MB
+2020-05-24 16:02:42 INFO  GPGenotype:538 - Evolving generation 450, memory free: 123.5 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 475, memory free: 107.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 500, memory free: 91.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 525, memory free: 76.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 550, memory free: 60.5 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 575, memory free: 123.5 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 600, memory free: 107.5 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 625, memory free: 92.5 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 650, memory free: 78.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 675, memory free: 63.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 700, memory free: 125.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 725, memory free: 110.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 750, memory free: 95.0 MB
+2020-05-24 16:02:43 INFO  GPGenotype:538 - Evolving generation 775, memory free: 79.5 MB
+2020-05-24 16:02:43 INFO  GPGenotype:669 - Best solution fitness: 0.00
+2020-05-24 16:02:43 INFO  GPGenotype:671 - Best solution: (((X + 3.0) + (X * X)) + 0.0) + ((X + 1.0) + (2.0 * X))
+2020-05-24 16:02:43 INFO  GPGenotype:681 - Depth of chrom: 4
+Mean Square Error : 0.000414

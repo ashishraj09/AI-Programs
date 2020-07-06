@@ -1,0 +1,73 @@
+Decision Tree implementation for AI Assignment 1
+Enter training dataset file name : 
+hepatitis-training
+Enter test dataset file name : 
+hepatitis-test
+
+Decision Tree:
+ASCITES = true: 
+	SPIDERS = true: 
+		STEROID = true: 
+			Class Live
+		STEROID = false: 
+			VARICES = true: 
+				BIGLIVER = true: 
+					SPLEENPALPABLE = true: 
+						FIRMLIVER = true: 
+							Class Live
+						FIRMLIVER = false: 
+							SGOT = true: 
+								Class Live
+							SGOT = false: 
+								FEMALE = true: 
+									Class Live
+								FEMALE = false: 
+									ANOREXIA = true: 
+										Class Die
+									ANOREXIA = false: 
+										Class Live
+					SPLEENPALPABLE = false: 
+						HISTOLOGY = true: 
+							Class Die
+						HISTOLOGY = false: 
+							Class Live
+				BIGLIVER = false: 
+					Class Live
+			VARICES = false: 
+				Class Die
+	SPIDERS = false: 
+		FIRMLIVER = true: 
+			ANOREXIA = true: 
+				SGOT = true: 
+					Class Live
+				SGOT = false: 
+					Class Die
+			ANOREXIA = false: 
+				Class Live
+		FIRMLIVER = false: 
+			SGOT = true: 
+				BIGLIVER = true: 
+					Class Live
+				BIGLIVER = false: 
+					Class Die
+			SGOT = false: 
+				Class Live
+ASCITES = false: 
+	BIGLIVER = true: 
+		VARICES = true: 
+			FIRMLIVER = true: 
+				SPIDERS = true: 
+					BILIRUBIN = true: 
+						Class Live
+					BILIRUBIN = false: 
+						Class Die
+				SPIDERS = false: 
+					Class Die
+			FIRMLIVER = false: 
+				Class Live
+		VARICES = false: 
+			Class Die
+	BIGLIVER = false: 
+		Class Live
+Baseline Accuracy: 80.0%
+Decision Tree Accuracy: 76.0%

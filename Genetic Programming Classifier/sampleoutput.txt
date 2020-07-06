@@ -1,0 +1,105 @@
+Genetic Programming for Classification
+Do you wish to enter on entire dataset file and split it into test and train ? - Y/N
+Enter 'No' To use an already split test and train file - No
+y
+Enter the complete dataset file name: 
+satellite
+Enter the test split ratio : (0.0 - 0.9) 
+0.3
+2020-05-24 16:25:16 INFO  DataOperator:28 - loadData() :: reading file satellite.
+2020-05-24 16:25:16 INFO  DataOperator:75 - loadData() :: read file complete.
+2020-05-24 16:25:16 INFO  DataOperator:235 - checkOrCreateFile() :: File test_data already exists. 
+2020-05-24 16:25:16 INFO  DataOperator:235 - checkOrCreateFile() :: File train_data already exists. 
+2020-05-24 16:25:16 INFO  DataOperator:220 - writeToFile() :: Successfully wrote to the file split_test_data.
+2020-05-24 16:25:16 INFO  DataOperator:220 - writeToFile() :: Successfully wrote to the file split_train_data.
+2020-05-24 16:25:16 INFO  DataOperator:248 - loadData2) :: reading file split_test_data.
+2020-05-24 16:25:16 INFO  DataOperator:307 - loadData2() :: read file complete.
+2020-05-24 16:25:16 INFO  DataOperator:248 - loadData2) :: reading file split_train_data.
+2020-05-24 16:25:17 INFO  DataOperator:307 - loadData2() :: read file complete.
+2020-05-24 16:25:17 INFO  DataOperator:328 - loadData2) :: reading file satellite.
+2020-05-24 16:25:17 INFO  GPClassifier:119 - setData() :: test and train data values set. 
+2020-05-24 16:25:17 INFO  GPClassifier:120 - setData() :: variableNames.size() 37
+2020-05-24 16:25:17 INFO  GPClassifier:80 - startClassifier() :: Classifier started.
+2020-05-24 16:25:17 INFO  GPGenotype:420 - Creating initial population
+2020-05-24 16:25:17 INFO  GPGenotype:421 - Mem free: 14.0 MB
+2020-05-24 16:25:17 INFO  GPPopulation:330 - Prototype program set
+2020-05-24 16:25:17 INFO  GPGenotype:437 - Mem free after creating population: 10.0 MB
+2020-05-24 16:25:17 INFO  GPGenotype:1496 - Your configuration does not contain unused commands, this is good
+2020-05-24 16:25:17 INFO  GPGenotype:538 - Evolving generation 0, memory free: 6.9 MB
+2020-05-24 16:25:17 INFO  GPGenotype:669 - Best solution fitness: 16.29
+2020-05-24 16:25:17 INFO  GPGenotype:671 - Best solution: (V21 - V26) + (V33 / V9) + (V19 / V25) + (V26 / V27)
+2020-05-24 16:25:17 INFO  GPGenotype:681 - Depth of chrom: 2
+2020-05-24 16:25:18 INFO  GPGenotype:669 - Best solution fitness: 15.55
+2020-05-24 16:25:18 INFO  GPGenotype:671 - Best solution: V9 - V22
+2020-05-24 16:25:18 INFO  GPGenotype:681 - Depth of chrom: 1
+2020-05-24 16:25:18 INFO  GPGenotype:669 - Best solution fitness: 14.07
+2020-05-24 16:25:18 INFO  GPGenotype:671 - Best solution: (V4 * V27 * V6) / ((V24 - V11) - (V2 - V12))
+2020-05-24 16:25:18 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:25:18 INFO  GPGenotype:669 - Best solution fitness: 11.85
+2020-05-24 16:25:18 INFO  GPGenotype:671 - Best solution: ((V4 - V20) + V26 + V31 + V18) / ((V21 - V26) + (V33 / V9) + (V19 / V25) + (V12 - V18))
+2020-05-24 16:25:18 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:25:18 INFO  GPGenotype:669 - Best solution fitness: 11.11
+2020-05-24 16:25:18 INFO  GPGenotype:671 - Best solution: ((V4 - V20) + V26 + V31 + V18) / ((V21 - V26) + (V9 - V22) + (V19 / V25) + (V12 - V18))
+2020-05-24 16:25:18 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:25:18 INFO  GPGenotype:669 - Best solution fitness: 10.37
+2020-05-24 16:25:18 INFO  GPGenotype:671 - Best solution: (V14 * (V17 - V22)) + ((V17 / V10) * (V33 + V25 + V8 + V11) * (V12 - V18))
+2020-05-24 16:25:18 INFO  GPGenotype:681 - Depth of chrom: 3
+2020-05-24 16:25:19 INFO  GPGenotype:669 - Best solution fitness: 8.14
+2020-05-24 16:25:19 INFO  GPGenotype:671 - Best solution: (V14 * ((V9 - V22) / (V19 / V27))) + ((V17 / V10) * (V33 + V25 + V8 + V11) * (V12 - V18))
+2020-05-24 16:25:19 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:25:19 INFO  GPGenotype:669 - Best solution fitness: 5.92
+2020-05-24 16:25:19 INFO  GPGenotype:671 - Best solution: (V14 * ((V9 - V22) / (V19 / V27))) + ((V17 / V10) * (((V17 - V22) * (V15 / V16)) + V25 + V8 + V11) * (V12 - V18))
+2020-05-24 16:25:19 INFO  GPGenotype:681 - Depth of chrom: 5
+2020-05-24 16:25:20 INFO  GPGenotype:538 - Evolving generation 25, memory free: 201.2 MB
+2020-05-24 16:25:21 INFO  GPGenotype:669 - Best solution fitness: 5.18
+2020-05-24 16:25:21 INFO  GPGenotype:671 - Best solution: ((V1 - V14) + (V19 - V22) + (V9 - V22) + (V12 - V18)) / ((((V17 / V10) + V1 + V10 + V16) / ((V9 - V22) + V15)) + V12)
+2020-05-24 16:25:21 INFO  GPGenotype:681 - Depth of chrom: 5
+2020-05-24 16:25:22 INFO  GPGenotype:669 - Best solution fitness: 4.44
+2020-05-24 16:25:22 INFO  GPGenotype:671 - Best solution: ((V1 - V14) + (V19 - V22) + (V9 - V18) + ((V1 - V14) + (V19 - V22) + (V17 - V22) + (V12 - V18))) / (V16 + V9 + V7)
+2020-05-24 16:25:22 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:25:22 INFO  GPGenotype:669 - Best solution fitness: 3.70
+2020-05-24 16:25:22 INFO  GPGenotype:671 - Best solution: ((V9 - V18) + (V19 - V12) + ((V17 - V10) / (V19 / V25)) + (V12 - V18)) / (V16 + V23 + V7)
+2020-05-24 16:25:22 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:25:23 INFO  GPGenotype:669 - Best solution fitness: 2.22
+2020-05-24 16:25:23 INFO  GPGenotype:671 - Best solution: (V26 / (V21 + V26 + (V33 / V9))) + ((V19 - V22) + (V9 - V18) + (V9 - V18) + (V19 - V22)) + (V9 - V18) + (V12 - V18)
+2020-05-24 16:25:23 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:25:23 INFO  GPGenotype:538 - Evolving generation 50, memory free: 165.2 MB
+2020-05-24 16:25:26 INFO  GPGenotype:538 - Evolving generation 75, memory free: 123.1 MB
+2020-05-24 16:25:29 INFO  GPGenotype:538 - Evolving generation 100, memory free: 250.2 MB
+2020-05-24 16:25:32 INFO  GPGenotype:538 - Evolving generation 125, memory free: 212.1 MB
+2020-05-24 16:25:36 INFO  GPGenotype:538 - Evolving generation 150, memory free: 182.6 MB
+2020-05-24 16:25:38 INFO  GPGenotype:538 - Evolving generation 175, memory free: 156.6 MB
+2020-05-24 16:25:41 INFO  GPGenotype:538 - Evolving generation 200, memory free: 129.5 MB
+2020-05-24 16:25:43 INFO  GPGenotype:669 - Best solution fitness: 1.48
+2020-05-24 16:25:43 INFO  GPGenotype:671 - Best solution: (V26 / ((V9 * V33) - (V14 * V5))) + ((V19 - V22) + (V9 - V18) + (V9 - V18) + (V19 - V22)) + (V9 - V18) + (V12 - V18)
+2020-05-24 16:25:43 INFO  GPGenotype:681 - Depth of chrom: 4
+2020-05-24 16:25:44 INFO  GPGenotype:538 - Evolving generation 225, memory free: 257.1 MB
+2020-05-24 16:25:47 INFO  GPGenotype:538 - Evolving generation 250, memory free: 234.5 MB
+2020-05-24 16:25:50 INFO  GPGenotype:538 - Evolving generation 275, memory free: 211.5 MB
+2020-05-24 16:25:53 INFO  GPGenotype:538 - Evolving generation 300, memory free: 185.9 MB
+2020-05-24 16:25:56 INFO  GPGenotype:538 - Evolving generation 325, memory free: 159.5 MB
+2020-05-24 16:25:59 INFO  GPGenotype:538 - Evolving generation 350, memory free: 126.9 MB
+2020-05-24 16:26:02 INFO  GPGenotype:538 - Evolving generation 375, memory free: 259.5 MB
+2020-05-24 16:26:06 INFO  GPGenotype:538 - Evolving generation 400, memory free: 232.0 MB
+2020-05-24 16:26:09 INFO  GPGenotype:538 - Evolving generation 425, memory free: 214.4 MB
+2020-05-24 16:26:12 INFO  GPGenotype:538 - Evolving generation 450, memory free: 191.2 MB
+2020-05-24 16:26:15 INFO  GPGenotype:538 - Evolving generation 475, memory free: 170.9 MB
+2020-05-24 16:26:18 INFO  GPGenotype:538 - Evolving generation 500, memory free: 145.9 MB
+2020-05-24 16:26:21 INFO  GPGenotype:538 - Evolving generation 525, memory free: 122.8 MB
+2020-05-24 16:26:25 INFO  GPGenotype:538 - Evolving generation 550, memory free: 258.9 MB
+2020-05-24 16:26:28 INFO  GPGenotype:538 - Evolving generation 575, memory free: 235.8 MB
+2020-05-24 16:26:31 INFO  GPGenotype:538 - Evolving generation 600, memory free: 208.2 MB
+2020-05-24 16:26:34 INFO  GPGenotype:538 - Evolving generation 625, memory free: 183.7 MB
+2020-05-24 16:26:37 INFO  GPGenotype:538 - Evolving generation 650, memory free: 153.3 MB
+2020-05-24 16:26:40 INFO  GPGenotype:538 - Evolving generation 675, memory free: 130.7 MB
+2020-05-24 16:26:43 INFO  GPGenotype:538 - Evolving generation 700, memory free: 104.6 MB
+2020-05-24 16:26:45 INFO  GPGenotype:538 - Evolving generation 725, memory free: 237.8 MB
+2020-05-24 16:26:48 INFO  GPGenotype:538 - Evolving generation 750, memory free: 211.2 MB
+2020-05-24 16:26:51 INFO  GPGenotype:538 - Evolving generation 775, memory free: 179.6 MB
+2020-05-24 16:26:54 INFO  GPGenotype:669 - Best solution fitness: 1.48
+2020-05-24 16:26:54 INFO  GPGenotype:671 - Best solution: (V26 / ((V9 * V33) - (V14 * V5))) + ((V19 - V22) + (V9 - V18) + (V9 - V18) + (V19 - V22)) + (V9 - V18) + (V12 - V18)
+2020-05-24 16:26:54 INFO  GPGenotype:681 - Depth of chrom: 4
+The Train Error :1.4814814814814816
+Train Accuracy : 98.51851851851852%
+The Test Error :1.6666666666666667%
+Test Accuracy : 98.33333333333333%
